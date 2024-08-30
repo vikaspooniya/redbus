@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bus Ticket Booking Online made Easy, Secure with Top Bus Operators - redBus</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/58/91/2b/58912b2e3ad6a279347eebb47751a9c1.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="box5" id="home">
+        <header>
+            <div class="container">
+                <img src="bus/rdc-redbus-logo.svg" width="80px" alt="">
+                <div class="line"></div>
+                <nav>
+                    <div class="bus">
+                        <a href="index.html"> <img src="bus/rdc-redbus-logo.svg" alt="">
+                            <div>Bus tickets</div>
+                        </a>
+                    </div>
+                    <div class="train">
+                        <a href="about.html"> <img src="bus/rail_vertical.svg" alt="">
+                            <div>train tickets</div>
+                            <div class="offer">₹ 80 off</div>
+                        </a>
+                    </div>
+                    <div class="help">
+                        <div class="icon">
+                            <a href=""> <i class="fa-solid fa-headphones" style="font-size: 18px;"></i>
+                                Help</a>
+                        </div>
+                        <div class="icon" style="width: 117px;">
+                            <a href=""> <i class="fa-regular fa-user" style="font-size: 18px;"></i>
+                                Account
+                                <i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="bdabox">
+
+            <div class="no1">
+
+                India's No. 1 Online Bus Ticket Booking Site
+            </div>
+            <form>
+                <div class="date">
+                    <div class="ram">
+
+                      
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAaVBMVEX///8SExMAAADNzc3d3d0sLCwMDg74+Pjl5eX19fUICQng4ODZ2dny8vIxMTG1tbUcHBxfX1+vr68YGBg7OzsjJCTs7OzT09NERETAwMCmpqZ+fn51dXVMTExSUlJZWVlnZ2ednZ2NjY1bWWxdAAAD7ElEQVR4nO2bC2/iMBCEyQJ5GJIY8oDQBkr//4+8NC10HLizgdhZ6TyVKlVU7afxxnhnzWzm5eXl5eXl5eXlxURRft6mU0MMlEsiKrZTYyhqSARBIGg+NQhoS2HwJWqnJvlV88MUhNlqapaLLj51UNV6apgfzft66iVKJg9gfvWpq6nz1DTfAp8C2kRT4/RqQmB658G0Q6ZNMjVOryYApg8mPhXoE48Hby75+bSuCHyqp8bpNUemE48a5+jTDpmOPGp8vcS14+HTOgOmPUef4qlxei3QJyaHFYXpyMOnGJkyHjWu+NTy8KlGpooH00rZC3gwpSUwFTyY4pKfTwkyEY+2M2ZYT9H+l0mEPHyqYe1C2cSLUbR67RANPgVBkS3HUXZ6ITxKWmTqvBpLRPnTUAeVaUQJ+fQK7oX+zz8pap6FsobUQR2G/6w+fB5MTh+lQ6cO9KUb1Fud7dUUDVrG76xSGFCl7ZAq7L5Mv/39pTtP38/eE5pQVQqVHMknuRwu3iq7hLqkT+XxhBDIfDcfRbe57WJ5TXUNvKrBK4uBa/K7+4QGG6tySiitnRJgnw6FwQpifpBZ8+oNqAy8WiHV3lZ3FSFVYLCClYveWKEyeBdaFy4SoOgdqEIDryTWla38DqmEiVcCExdrXn0AVaCnUqq9tJUJP+rVjjDttLaCG6CSBiuo7Axu6kp/lFcmV9ZS/eiIXump1hVQtf+XV9hDiWqnp8K5zNHaCn684JW16WMCPTAZTM3nhYs5bQI7A5F+BRsnXkWYP0l9rtIULqo9PQGV0K+gG6+UrE7qT7yKV9aoUthFqTDxKnRBhV4Z5OR5AFRvtqjqFqkWeir06s0S1Cx9cKawFUBlEEs8pxh3UYMLUeCVsHaQ6eoKnimp76QO/7w/tR6nwd/lkF+Y9MLXW13hcliETTZaFoI/UKXvDi5e0X7wQk4UvhIVqb+EVK2eatvv7TedY0LWEkCT+2P3M8HGWgAYiFIPdT89tZd0dzKAuiubTg3L11iRtFdTz+/T/dM3klSmV3qo+Wm02VKBTE8vXq9oNc4QLm4kvMfaSzcf0grvSe553LVTTwlcfML8icddu0dPUy4UY9Ja8rjzE7f8fKrxXhuTu1GqT/pOxoWUPobJXhAfGfqEvfFNAzCNYkxcljw+aYKTay5M9YYfU4I1vtQniy6k+MTkk0tKAlvx+DSc4pPk4ZOS6hvMsFwoVWaQPGpcmRQZzEVdCGtcCB4+zdAng1m7Cz06uXIiuD9mcqvEiSBwZeOTcn+KzWet4aYZj72gV0vcfJpd5sAmtzZcalsQkWTy3F2Vbs85j6zHy8vLy8vLy8vLq9Mf2k47r3k5n48AAAAASUVORK5CYII="
+                            alt="" width="22px">
+                    </div>
+                    <div class="from">
+
+                        <div class="box"> <img
+                                src="https://static.vecteezy.com/system/resources/thumbnails/021/797/214/small/bus-icon-isolated-on-white-background-vector.jpg"
+                                alt="" width="36px ">
+                            <div class="box1"><label for="Form">From</label><input autofocus required id="Form"
+                                    type="text" name="form"></div>
+
+
+                        </div>
+                        <div class="from">
+
+                            <div class="box"> <img
+                                    src="https://static.vecteezy.com/system/resources/thumbnails/021/797/214/small/bus-icon-isolated-on-white-background-vector.jpg"
+                                    alt="" width="36px ">
+                                <div class="box1"><label for="To">To</label><input required id="To" type="text"
+                                        name="To">
+                                </div>
+
+
+                            </div>
+                            <div class="from">
+                                <div class="box"><i class="fa-regular fa-calendar-days" style="font-size: 24px;"></i>
+                                </div>
+                                <div class="box2"><label for="Date">Date</label> <input id="Date" type="date"
+                                        name="date">
+                                </div>
+                            </div>
+                            <div class="box4"><button type="submit">SEARCH BUSES</button> </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        </form>
+
+        <div class="offers">
+
+            <div class="all">
+
+                <h2>TRENDING OFFERS</h2>
+                <a href="">
+                    <div class="view">
+                        View All
+                    </div>
+                </a>
+
+            </div>
+            <div class="overflow">
+
+                <div class="overbox">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save up to Rs 250 on bus tickets</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 31 Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="first">First</div><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="overbox overbox2">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/Images/INDOFFER/80x80/SUPERHIT.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save up to Rs 300 on AB,TC routes</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 31 Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="superhit">SUPERHIT</div><img
+                                src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="overbox overbox3">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/Images/INDOFFER/ICICI500/MWeb-80_80%20ICICI.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save up to Rs500 with icici</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 23 Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="superhit">ICICI500</div><img
+                                src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="overbox overbox4">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/Images/INDOFFER/CHARTERED15/80x80.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save up to Rs300 CHARTERED bus</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 31 Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="superhit1">CHARTERED15</div><img
+                                src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="overbox overbox5">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/Images/INDOFFER/80x80/SBSTC.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save 25% up to Rs 100 on SBSTC bus tickets.</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 31Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="superhit">SBNEW</div><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="overbox overbox6">
+                    <div class="chota">
+                        <img src="https://st.redbus.in/Images/INDOFFER/80x80/Intrcity.png" alt="">
+                    </div>
+                    <div class="bda">
+                        <div class="bus1">
+                            BUS
+                        </div>
+                        <h3>Save up to Rs. 150 on IntrCity SmartBus operator</h3>
+                        <div style="font-size: 13px; margin-top: 5px;">Valid till 31 Aug</div>
+                        <div style="display: flex; gap: 20px;">
+                            <div class="superhit1">SMARTBUS150</div><img
+                                src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="all2">
+
+
+            <span style="font-size: 40px;">Government Buses</span>
+            <a href="">
+                <div class="view" style="position: relative; left: 100px;">
+                    View All
+                </div>
+            </a>
+
+
+        </div>
+
+        <div class="box7">
+
+
+            <div class="box8">
+
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>RSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.71
+                                </div>
+                            </div>
+                            <div>राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        6000 services including Deluxe, Ordinary and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of RSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)</h6>
+            </div>
+
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://st.redbus.in/buslogos/country/ind/logo_group/11044.png"
+                                alt="" width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>UPSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.94
+                                </div>
+                            </div>
+                            <div>उत्तर प्रदेश राज्य सड़क परिवहन निगम</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        1738 services including Janrath,Shatabdi and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of UPSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">24*7 customer service (Call or chat)
+                </h6>
+            </div>
+
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/16227.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>HRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.98
+                                </div>
+                            </div>
+                            <div>हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        480 services including Himgaurav, Himmani and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of HRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/27455.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>CTU RTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.85
+                                </div>
+                            </div>
+                            <div>चंडीगढ़ परिवहन उपक्रम</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        143 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of CTU</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/16374.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>SBSTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.95
+                                </div>
+                            </div>
+                            <div>দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        480 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of SBSTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/27455.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>CTU RTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.85
+                                </div>
+                            </div>
+                            <div>चंडीगढ़ परिवहन उपक्रम</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        143 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of CTU</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/16426.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>WBTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.96
+                                </div>
+                            </div>
+                            <div>পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        120 services including volvo Bus AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of WBTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/10283.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>APSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.85
+                                </div>
+                            </div>
+                            <div>ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        1539 services including Garuda, Garuda Plus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of APSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Get 25% concession for senior citizen passengers
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/15443.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>WBSTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.98
+                                </div>
+                            </div>
+                            <div>পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        20 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of WBSTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+
+            </div>
+
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/7115.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>KTCL</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.83
+                                </div>
+                            </div>
+                            <div>कदंब येरादारी म्हामंडळ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        60 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of KTCL</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/25187.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>KAAC Transport</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.71
+                                </div>
+                            </div>
+                            <div>কাৰ্বি আংলং স্বায়ত্ত শাসিত পৰিষদ পৰিবহণ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        10 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of KAAC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/29176.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>JKSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.85
+                                </div>
+                            </div>
+                            <div>जम्मू और कश्मीर सड़क परिवहन निगम।</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        16 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of JKSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/17889.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>BSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.91
+                                </div>
+                            </div>
+                            <div>बिहार राज्य रोड ट्रान्सपोर्ट कॉर्पोरेशन।</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        220 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of BSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/17889.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>TSRTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.71
+                                </div>
+                            </div>
+                            <div>తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        1450 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of TSRTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/28011.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>KERALA RTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.85
+                                </div>
+                            </div>
+                            <div>తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        940 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of KERALA</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/11060.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>PEPSU</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.83
+                                </div>
+                            </div>
+                            <div>ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        100 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of PEPSU</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/16081.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>ASTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>4.02
+                                </div>
+                            </div>
+                            <div>ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        200 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of ASTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+            <div class="box8">
+                <div class="box8new">
+                    <div class="box9">
+                        <div class="box9img"><img src="https://s3.rdbuz.com/web/images/homeV2/24978.png" alt=""
+                                width="100%"></div>
+                        <div class="box9text">
+                            <div class="text">
+                                <H3>NBSTC</H3>
+                                <div class="texticon">
+                                    <i class="fa-regular fa-star"></i>3.93
+                                </div>
+                            </div>
+                            <div>উত্তরবঙ্গ রাজ্য পরিবহন কর্পোরেশন</div>
+                        </div>
+
+
+                    </div>
+                    <div class="boxnewtext">
+                        30 services including AC & Non AC Bus and more
+                    </div>
+                    <div class="booking">
+                        <div class="bookingimg"><img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt=""
+                                width="100%"></div>
+                        <h5>Official booking partner of NBSTC</h5>
+                        <div></div>
+                    </div>
+                </div>
+                <h6 style="text-align: center; padding: 10px;">Use code FIRST to save upto ₹250 (only for first time
+                    users)
+                </h6>
+            </div>
+
+        </div>
+    </div>
+    <div class="buttonv">
+        <div class="button2">
+            <a href="#home"> <i class="fa-solid fa-arrow-up"></i></a>
+           
+        </div>
+    </div>
+    <div class="now">
+        <div class="now1">
+            <div class="now2">
+                <div class="nowtext">
+                    NOW,<b>GET MORE THAN JUST BUS</b> TICKETS WITH REDBUS!
+                </div>
+                <div class="traintict">
+                    <div class="traintict1">
+                        <img src="https://s3.rdbuz.com/web/images/layout/rail_vertical.svg" alt="" width="100%">
+
+                    </div>
+                    <h4 style="padding: 8px;"> Train Tickets</h4>
+                </div>
+                <div class="trainticttext">
+                    Book IRCTC Train Tickets on redRail simple & superfast booking process with no service fee + no
+                    payment gateway charge.
+                </div>
+                <div class="partnar">
+                    <div class="partnar1">
+                        <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railAuthorized.png" alt=""
+                            width="32px">
+                        <h4 style="margin-top: 5px;">Authorised IRCTC Partner</h4>
+                    </div>
+                    <div class="partnar1">
+                        <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railAuthorized.png" alt=""
+                            width="32px">
+                        <h4 style="margin-top: 5px;">Instant refunds on UPI payments</h4>
+                    </div>
+                    <div class="partnar1">
+                        <img src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/railrefunds.svg" alt="" width="32px">
+                        <h4 style="margin-top: 5px;">Hassle- free customer support</h4>
+                    </div>
+                </div>
+                <div class="span">
+                    <div class="row"><a href="">Book Train Tickets </a><a href=""></a></div><i
+                        style="font-size: 30px; padding: 10px;" class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="now2 now3">
+
+                <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railPop.webp" alt="" width="100%">
+            </div>
+        </div>
+        <div class="play">
+            <h1 style="padding: 10px 0px 0px 30px; color: white;">ENJOY THE AAP</h1>
+            <div class="google">
+                <div class="access">
+                    <div class="key">
+                        <div class="sita"><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt=""
+                                width="22px"></div><span class="spantext">Quick access</span>
+                    </div>
+                    <div class="key">
+                        <div class="sita"><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt=""
+                                width="22px"></div><span class="spantext">Superior live tracking</span>
+                    </div>
+                    <div class="store">
+                        <div class="playstore">
+                            <div class="playstore1">
+                                <div class="playstore2">
+                                    <h3>4.5</h3>
+                                </div>
+                                <div class="playstore3"><i class="fa-duotone fa-solid fa-star-half-stroke"></i></div>
+                            </div>
+                            <div class="download"> 50M + downloads</div>
+                            <div class="download" style="font-weight: bold; color: black;"> App Store </div>
+                        </div>
+                        <div class="appstore">
+                            <div class="playstore1" style="padding-left: 10px;">
+                                <div class="playstore2">
+                                    <h3>4.6</h3>
+                                </div>
+                                <div class="playstore3"><i class="fa-duotone fa-solid fa-star-half-stroke"></i></div>
+                            </div>
+                            <div class="download" style=" padding-left: 10px;"> 50M + downloads</div>
+                            <div class="download" style="font-weight: bold; color: black;  padding-left: 10px;"> App
+                                Store </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="scan">
+                    <div class="scan1">
+                        <div class="scantext">Scan to Download</div>
+                        <div class="qrscan"><img src="https://s1.rdbuz.com/web/images/homeV2/qrCode.svg" alt=""
+                                width="100%" height="100%"></div>
+                    </div>
+                    <div class="scan2">
+                        <div class="appon">Download The App On</div>
+                        <div class="appon1"><img src="https://s2.rdbuz.com/web/images/homeV2/appinstall/playStore.svg"
+                                alt="" width="100%" height="100%"></div>
+                        <div class="appon1"><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/appStore.svg"
+                                alt="" width="100%" height="100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="staff">
+            <div class="staffimg">
+                <img src="https://s3.rdbuz.com/images/webplatform/india/primoHomeBannerComp.webp" alt="" width="100%"
+                    height="100%" style="border-radius: 30px;">
+            </div>
+            <div class="stafftext">
+                <div class="stafftext1">
+                    <div class="staffimg1">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div class="ontime">
+                        <div class="ontime1">
+                            <h2>On Time</h2>
+                        </div>
+                        <div class="ontime2">Punctual arrivals on 95% trips</div>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="stafftext1">
+                    <div class="staffimg1">
+                        <i class="fa-solid fa-hands-praying"></i>
+                    </div>
+                    <div class="ontime">
+                        <div class="ontime1">
+                            <h2>Friendly Staff</h2>
+                        </div>
+                        <div class="ontime2">Always ready to help</div>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="stafftext1">
+                    <div class="staffimg1">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="ontime">
+                        <div class="ontime1">
+                            <h2>Top Rated</h2>
+                        </div>
+                        <div class="ontime2">Buses with 4+ star rating</div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="globl">
+            <h2>Global Presence</h2>
+        </div>
+        <div class="tirnga">
+            <div class="tirnga1">
+                <div class="tirnga2"><img
+                        src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/Colombia.svg" alt=""></div>
+                <div class="tirnga3">Colombia</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/India.svg"
+                        alt=""></div>
+                <div class="tirnga3">India</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img
+                        src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/Indonesia.svg" alt=""></div>
+                <div class="tirnga3">Indonesia</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img
+                        src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/Malaysia.svg" alt=""></div>
+                <div class="tirnga3">Malaysia</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/Peru.svg"
+                        alt=""></div>
+                <div class="tirnga3">Peru</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img
+                        src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresencev2/Singapore.svg" alt=""></div>
+                <div class="tirnga3">Singapore</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Vietnam.svg"
+                        alt=""></div>
+                <div class="tirnga3">Vietnam</div>
+            </div>
+            <div class="tirnga1">
+                <div class="tirnga2"><img src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Cambodia.svg"
+                        alt=""></div>
+                <div class="tirnga3">Cambodia</div>
+            </div>
+        </div>
+        <div class="bookbus">
+            <h1 style="font-weight: 400;">BOOK BUS TICKETS ONLINE</h1>
+            <p>
+                redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and
+                <a href="/train-tickets" target="_self">train ticket </a>
+                booking; with over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of
+                offers on bus ticket booking, redBus makes road journeys super convenient for travellers. A leading
+                platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17
+                years across thousands of cities and lakhs of routes in India.
+            </p>
+            <p>
+                Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app
+                or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services
+                available. You can then compare bus prices, user ratings & amenities, select your preferred seat,
+                boarding & dropping points and pay using multiple payment options like UPI, debit or credit card, net
+                banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel with the
+                best s<span id="more" class="viewTextMore" style="color: #00E; font-size: 1rem; font-style: normal; font-weight: 500; line-height: 2rem; cursor: pointer;"> Read more....</span>
+            </p>
+        </div>
+<div class="bookbus1">
+    <h1 style="font-weight: 400;">Bus Booking redDeals on redBus </h1>
+    <div style="margin-top: 20px;">
+        <p>
+            Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!
+        </p>
+    </div>
+    <div class="bookbus2">
+        <div class="unlock">
+            <div class="unlock1">
+                          <img src="bus/rdc-redbus-logo.svg" alt="" width="56px" height="56px"> 
+            </div>
+            <div class="unlock2">
+             <h2>Unlock Unbeatable Exclusive   redDeals! <span style="color: red;">20% OFF</span></h2>
+             <span style="color: #d84e55; font-size: 1rem;">3382</span>Deals
+             <span style=" border-right: 1px solid #000; margin: 0 0.5em;"></span>
+             <span style="color: #d84e55; font-size: 1rem;">1496</span>
+             Bus Operators
+             <span style=" border-right: 1px solid #000; margin: 0 0.5em;"></span>
+             <span style="color: #d84e55; font-size: 1rem;">307536</span>
+             Routes
+            
+            </div>
+            <div class="unlock3">
+                Book now
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+    </div>
+
+</body>
+
+</html>
